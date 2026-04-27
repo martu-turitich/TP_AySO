@@ -1,0 +1,247 @@
+echo hola
+echo "hoy es lunes"
+echo $HOME
+man echo
+pwd
+ls
+-l
+ls -l
+mkdir clase4_113
+ls -l
+cd clase4_113/
+pdw
+pwd
+ls -l
+history
+cat > archivo1.txt
+cat > archivo2.txt
+ls -l
+[200~cat > archivo1.txt
+cat archivo1.txt archivo2.txt >archivo3.txt
+cat arvhivo3.txt
+cat archivo3.txt
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls -l
+echo hola
+echo "Hoy es lunes"
+echo $HOME
+man echo
+man man
+pwd
+ls
+ls -l
+cd clase4_113/
+pwd
+ls -l
+history
+mdkir clase4.2
+mkdir clase4.2
+ls -l
+cd clase 4.2
+cd ..
+mkdir clase4_2
+ls -l
+cd clase4_2
+history
+cat > archivo_1.txt
+ls -l
+cat archivo_1.txt 
+e4_2$ cat > archivo_2.txt
+cat > archivo_2.txt
+cat archivo_1.txt archivo_2.txt > archivo_3.txt
+ls -l
+cat archivo_3.txt
+grep Linea4 archivo_3.txt
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd -
+cd repogit
+ls -l
+git clone git@github.com:martu-turitich/vmvagrant_repo.git
+ls -l
+cd vmvagrant_repo/
+ls -l
+echo "Mi primer repo"
+echo "Mi primer repo" > texto1.txt
+ls -l
+cat texto1.txt 
+git status
+git add .
+git status
+git commit -m "agrego texto1.txt"
+git status
+ls -l
+git push
+cd - 
+cd ..
+pwd
+ls -l
+cd clase4_2
+cat archivo3.txt
+cat archivo_3.txt
+grep linea3 archivo_3.txt
+grep -i linea3 archivo_3.txt
+grep -i 3 archivo_3.txt
+grep -i -c 3 archivo_3.txt
+grep -ci linea archivo_3.txt
+grep -n 3 archivo_3.txt
+grep -v 3 archivo_3.txt
+clear
+tree
+sudo apt update
+sudo apt install tree
+cd ..
+pwd
+tree
+ls -l
+mkdir clase5
+ls -l
+cd clase5
+pwd
+ls -l
+mkdir practica
+cd practica
+ls -l
+touch practica1.txt
+ls -l
+cat practica1.txt 
+cp practica1.txt practica2.txt
+ls -l
+mv practica2.txt /home/vagrant/clase5/
+ls -l
+cd ..
+ls -l
+cd practica
+mv practica1.txt /home/vagrant/clae5/
+mv parctica1.txt /home/vagrant/clase5/
+mv practica1.txt /home/vagrant/clase5/
+cd ..
+ls -l
+rmdir practica/
+ls -l
+rmdir practica1.txt
+pwd
+mkdir facturas pedidos 
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clietes,proveedores}/{factiras,pedidos}
+tree
+rm practica1.txt
+tree
+mkdir -p turitich_1/contactos/{clientes,proveedores}/facturas,pedidos}
+tree
+rm -r contactos 
+tree
+rm -r turitich_1
+tree
+mkdir -p contactos/{clietes,proveedores}/{facturas,pedidos}
+tree
+grep vagrant /etc/passwd
+cat /etc/passwd
+cat etc/shadow
+cat /etc/shadow
+sudo cat /ect/shadow
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow
+grep vagrant /etc/group
+sudo su
+cd ..
+pwd
+groupadd Alumnos
+sudo groupadd Alumnos 
+cat etc/groups
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno Pepe" -Alumnos Pepe
+cat /etc/passwd
+cat /etc/groups
+cat /etc/group
+ls -l /home
+passwd Pepe
+sudo passwd Pepe
+su - Pepe
+pwd
+su Pepe
+pwd
+whoami
+sudo - Pepe
+whoami
+su - Pepe
+pwd
+sudo usermod -aG sudo Pepe
+su - Pepe
+ssh-keygen -t ed25519
+/id_ed25519 already exists.
+Overwrite (y/n)?
+y
+/id_ed25519 already exists.
+Overwrite (y/n)?y
+n
+clear
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:martu-turitich/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+grep -i Home_url /etc/os-release >
+datos_url.txt 
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt  
+ls -l
+cat datos_usuario.txt
+ls
+git add .
+git config --global user.email "martuturi@gmail.com"
+git config --global user.name "martu-turitich"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt" 
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+git status
+cat <<EOF >> README.md
+Alumno: Martina Turitich
+Division: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.text
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p {materia1,materia2}/{uni1,suuni2,uni3}
+tree
+pwd
+mkdir -p ~/{materia1,materia2}/{uni1,uni2,uni3}
+tree
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+tree
+history -a
