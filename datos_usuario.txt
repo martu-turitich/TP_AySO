@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: Intel(R) Core(TM) 5 120U
